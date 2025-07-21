@@ -9,6 +9,15 @@
     jetbrains.clion
     neofetch
     code-cursor
-    jupyter
+    kitty
+    google-chrome
+    nodejs_22
+    hexo-cli
+    typescript
   ];
+
+  programs.kdeconnect = {
+    enable = true;
+    package = pkgs.gnomeExtensions.gsconnect;
+  };
 }

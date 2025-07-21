@@ -5,7 +5,8 @@
     (python313.withPackages (ps: with ps; [
       pip
       requests
-      torch
+      django
+      jupyter
     ]))
   ];
 }
